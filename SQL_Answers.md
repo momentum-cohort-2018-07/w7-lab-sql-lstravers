@@ -6,11 +6,9 @@ For each of the questions below, add the following information to a Markdown fil
 - The number of results returned (if more than one)
 - The specific result returned (if a single record is returned)
 
-1) **Find all time entries.**
+1) **Find all time entries.**  
     SELECT *
-    FROM time_entries
-    ![Image of Q1 db query]
-    (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q1_image.png)
+    FROM time_entries(https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q1_image.png)
 
 2) **Find the developer who joined most recently.**
 
