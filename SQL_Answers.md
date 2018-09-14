@@ -7,10 +7,17 @@ For each of the questions below, add the following information to a Markdown fil
 - The specific result returned (if a single record is returned)
 
 1) **Find all time entries.**  
-    SELECT *
-    FROM time_entries(https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q1_image.png)
+    -SELECT *  
+    -FROM time_entries;  
+    _500 rows returned_  
+    (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q1_image.png)
 
-2) **Find the developer who joined most recently.**
+2) **Find the developer who joined most recently.**  
+    -SELECT *  
+    -FROM developers
+    -ORDER BY joined_on DESC;  
+    _50 rows returned_ 
+    (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q2_image.png)
 
 
 3) **Find the number of projects for each client.**
