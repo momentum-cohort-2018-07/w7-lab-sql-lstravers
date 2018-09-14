@@ -1,4 +1,4 @@
-# SQL Queries!
+# SQL Query Answers
 
 For each of the questions below, add the following information to a Markdown file in your homework repo:
 
@@ -6,21 +6,42 @@ For each of the questions below, add the following information to a Markdown fil
 - The number of results returned (if more than one)
 - The specific result returned (if a single record is returned)
 
-## The queries
+1) **Find all time entries.**
+    SELECT *
+    FROM time_entries
+    ![Image of Q1 db query]
+    (/images/q1_image.png)
 
-1) Find all time entries.
-2) Find the developer who joined most recently.
-3) Find the number of projects for each client.
-4) Find all time entries, and show each one's client name next to it.
-5) Find all developers in the "Ohio sheep" group.
-6) Find the total number of hours worked for each client.
-7) Find the client for whom Mrs. Lupe Schowalter (the developer) has worked the greatest number of hours.
-8) List all client names with their project names (multiple rows for one client is fine).  Make sure that clients still show up even if they have no projects.
-9)Find all developers who have written no comments.
+2) **Find the developer who joined most recently.**
+
+
+3) **Find the number of projects for each client.**
+
+
+4) **Find all time entries, and show each one's client name next to it.**
+
+
+5) **Find all developers in the "Ohio sheep" group.**
+
+
+6) **Find the total number of hours worked for each client.**
+
+
+7) **Find the client for whom Mrs. Lupe Schowalter (the developer) has worked the greatest number of hours.**
+
+
+8) **List all client names with their project names (multiple rows for one client is fine).  Make sure that clients still show up even if they have no projects.**
+
+
+
+
+9)**Find all developers who have written no comments.**
+
+
 
 Unless otherwise specified, return all columns in the requested table (e.g. developers).
 
-## Challenges
+## **Challenges**
 
 Try these queries if you have time:
 
