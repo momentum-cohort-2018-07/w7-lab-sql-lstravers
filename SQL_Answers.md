@@ -17,7 +17,7 @@ For each of the questions below, add the following information to a Markdown fil
     -FROM developers  
     -ORDER BY joined_on DESC;  
     _50 rows returned_  
-    -RESULT: Dr. Danielle McLaughlin; joined on 2015-07-10
+    -RESULT: Dr. Danielle McLaughlin; joined on 2015-07-10  
     (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q2_image.png)
 
 
@@ -36,12 +36,10 @@ For each of the questions below, add the following information to a Markdown fil
 7) **Find the client for whom Mrs. Lupe Schowalter (the developer) has worked the greatest number of hours.**
 
 
-8) **List all client names with their project names (multiple rows for one client is fine).  Make sure that clients still show up even if they have no projects.**
+8) **List all client names with their project names (multiple rows for one client is fine).  Make sure that clients still show up even if they have no projects.**  
 
 
-
-
-9)**Find all developers who have written no comments.**
+9) **Find all developers who have written no comments.**
 
 
 
