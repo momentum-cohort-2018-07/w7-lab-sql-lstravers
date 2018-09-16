@@ -42,13 +42,22 @@ For each of the questions below, add the following information to a Markdown fil
     _3 rows returned_  
     (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q5_image.png)
 
-6) **Find the total number of hours worked for each client.**
+6) **Find the total number of hours worked for each client.**  
+    -tables needed: time_entries, projects  
+    -data columns needed: time_entries.duration; projects.client_id  
+    -not sure where to go from here??
 
 
-7) **Find the client for whom Mrs. Lupe Schowalter (the developer) has worked the greatest number of hours.**
+7) **Find the client for whom Mrs. Lupe Schowalter (the developer) has worked the greatest number of hours.**  
+    -tables needed: clients, projects, time_entries  
+    -data columns needed: client_id; projects.client_id; projects.id; time_entries.project_id  
+    -JOIN tables clients and project to match client_id with projects  
+    -JOIN tables projects and time_entires to match project_id with time_entry  
+    -not sure where to go from here??
 
 
 8) **List all client names with their project names (multiple rows for one client is fine).  Make sure that clients still show up even if they have no projects.**  
+    -  
 
 
 9) **Find all developers who have written no comments.**
