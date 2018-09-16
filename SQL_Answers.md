@@ -29,18 +29,18 @@ For each of the questions below, add the following information to a Markdown fil
     (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q3_image.png)
 
 4) **Find all time entries, and show each one's client name next to it.**
-    -SELECT time_entries.*, clients.name  
-    -FROM clients JOIN projects ON clients.id = projects.client_id  
-    -JOIN time_entries ON projects.id = time_entries.project_id;  
-    _500 rows returned_  
-    (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q4_image.png)
+    -tables needed: time_entries, projects, clients  
+    -data columns needed: duration(from time_entries); name(from clients)  
+    -JOIN tables clients and projects to match client name with project name 
+    -JOIN tables time_entries and projects to match project name with duration  
+    -SELECT time_entries.duration and clients.name
 
 5) **Find all developers in the "Ohio sheep" group.**
     -SELECT *  
     -FROM group_assignments  
     -WHERE group_id = 3  
     _3 rows returned_  
-    ()
+    (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q5_image.png)
 
 6) **Find the total number of hours worked for each client.**
 
@@ -52,7 +52,10 @@ For each of the questions below, add the following information to a Markdown fil
 
 
 9) **Find all developers who have written no comments.**
-
+    -tables needed: comments, developers  
+    -data columns needed: comment(from comments); id(from developer)  
+    JOIN (both tables) comments.comment_id AND developers.developer_id
+    WHERE comment IS NULL
 
 
 Unless otherwise specified, return all columns in the requested table (e.g. developers).
