@@ -28,14 +28,14 @@ For each of the questions below, add the following information to a Markdown fil
     _9 rows returned_  
     (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q3_image.png)
 
-4) **Find all time entries, and show each one's client name next to it.**
+4) **Find all time entries, and show each one's client name next to it.**  
     -tables needed: time_entries, projects, clients  
     -data columns needed: duration(from time_entries); name(from clients)  
     -JOIN tables clients and projects to match client name with project name 
     -JOIN tables time_entries and projects to match project name with duration  
     -SELECT time_entries.duration and clients.name
 
-5) **Find all developers in the "Ohio sheep" group.**
+5) **Find all developers in the "Ohio sheep" group.**  
     -SELECT *  
     -FROM group_assignments  
     -WHERE group_id = 3  
@@ -62,7 +62,7 @@ For each of the questions below, add the following information to a Markdown fil
     -JOIN both tables to SELECT client_id and match with projects.name  
 
 
-9) **Find all developers who have written no comments.**
+9) **Find all developers who have written no comments.**  
     -tables needed: comments, developers  
     -data columns needed: comment(from comments); id(from developer)  
     JOIN (both tables) comments.comment_id AND developers.developer_id
