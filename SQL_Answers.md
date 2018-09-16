@@ -26,7 +26,7 @@ For each of the questions below, add the following information to a Markdown fil
     -FROM projects  
     -GROUP BY client_id;  
     _9 rows returned_  
-    ()
+    (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q3_image.png)
 
 4) **Find all time entries, and show each one's client name next to it.**
     -SELECT time_entries.*, clients.name  
@@ -39,7 +39,8 @@ For each of the questions below, add the following information to a Markdown fil
     -SELECT *  
     -FROM group_assignments  
     -WHERE group_id = 3  
-    _3 rows returned_
+    _3 rows returned_  
+    ()
 
 6) **Find the total number of hours worked for each client.**
 
