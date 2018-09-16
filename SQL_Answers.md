@@ -22,9 +22,11 @@ For each of the questions below, add the following information to a Markdown fil
 
 
 3) **Find the number of projects for each client.**
-    -SELECT COUNT (client_id), name  
+    -SELECT COUNT (name), client_id  
     -FROM projects  
-    -GROUP BY client_id;
+    -GROUP BY client_id;  
+    _9 rows returned_  
+    ()
 
 4) **Find all time entries, and show each one's client name next to it.**
     -SELECT time_entries.*, clients.name  
@@ -34,7 +36,10 @@ For each of the questions below, add the following information to a Markdown fil
     (https://github.com/momentum-cohort-2018-07/w7-lab-sql-lstravers/blob/development/images/q4_image.png)
 
 5) **Find all developers in the "Ohio sheep" group.**
-
+    -SELECT *  
+    -FROM group_assignments  
+    -WHERE group_id = 3  
+    _3 rows returned_
 
 6) **Find the total number of hours worked for each client.**
 
