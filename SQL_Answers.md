@@ -57,7 +57,9 @@ For each of the questions below, add the following information to a Markdown fil
 
 
 8) **List all client names with their project names (multiple rows for one client is fine).  Make sure that clients still show up even if they have no projects.**  
-    -  
+    -tables needed: clients, projects  
+    -SELECT all clients  
+    -JOIN both tables to SELECT client_id and match with projects.name  
 
 
 9) **Find all developers who have written no comments.**
